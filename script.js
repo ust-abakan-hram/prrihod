@@ -308,7 +308,7 @@
     };
 
     if (route.isHome) {
-      document.title = 'Храм Александра Невского — п. Усть-Абакан';
+      document.title = 'Храм святого благоверного великого князя Александра Невского — п. Усть-Абакан';
       app.appendChild(renderHome());
     } else if (route.section === 'about') {
       document.title = (sectionTitles.about || '') + ' — Храм Александра Невского';
