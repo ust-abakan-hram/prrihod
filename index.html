@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Храм Александра Невского — п. Усть-Абакан</title>
+  <meta name="description" content="Официальный сайт православного храма Александра Невского в посёлке Усть-Абакан. Расписание богослужений, новости, фотоальбом, контакты.">
+  <meta name="keywords" content="православный храм, Александр Невский, Усть-Абакан, Абаканская епархия, расписание богослужений">
+
+  <!-- Шрифты Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Стили -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/og/og-image.png">
+
+  <!-- Данные (загружаются синхронно до script.js) -->
+  <script src="data.js"></script>
+  <script src="news.js"></script>
+</head>
+<body>
+  <div class="app-wrapper">
+
+    <!-- ═══════════════════════════════════════════════════════════════════
+         ШАПКА САЙТА С ГАМБУРГЕР-МЕНЮ
+         ═══════════════════════════════════════════════════════════════════ -->
+    <header class="site-header">
+      <div class="header-inner">
+        <!-- Лого + название -->
+        <a href="#/" class="logo-link" aria-label="На главную">
+          <span class="logo-icon">☩</span>
+          <span class="logo-text">
+            <span class="logo-name" id="header-name">Храм Александра Невского</span>
+            <span class="logo-tagline" id="header-tagline">п. Усть-Абакан • Абаканская епархия</span>
+          </span>
+        </a>
+
+        <!-- Кнопка-гамбургер -->
+        <button class="menu-button" id="menu-button" aria-label="Открыть меню">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Боковое меню (drawer) -->
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+    <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Главное меню">
+      <div class="drawer-header">
+        <div class="drawer-header-left">
+          <span class="drawer-logo">☩</span>
+          <div>
+            <div class="drawer-title">Меню</div>
+            <div class="drawer-subtitle" id="drawer-name">Храм Александра Невского</div>
+          </div>
+        </div>
+        <button class="drawer-close" id="drawer-close" aria-label="Закрыть меню">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="20" height="20">
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <nav class="drawer-nav" id="drawer-nav" aria-label="Главное меню">
+        <!-- Заполняется через JS -->
+      </nav>
+      <div class="drawer-footer">
+        © <span id="footer-year">2026</span> <span id="drawer-footer-name">Храм Александра Невского</span>
+      </div>
+    </aside>
+
+    <!-- ═══════════════════════════════════════════════════════════════════
+         ОСНОВНОЙ КОНТЕНТ (рендерится через JS)
+         ═══════════════════════════════════════════════════════════════════ -->
+    <main id="app">
+      <!-- Контент рендерится через script.js -->
+    </main>
+
+    <!-- ═══════════════════════════════════════════════════════════════════
+         ПОДВАЛ САЙТА
+         ═══════════════════════════════════════════════════════════════════ -->
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-grid">
+          <!-- Колонка 1: Название и описание -->
+          <div>
+            <div class="footer-brand">
+              <span class="footer-logo">☩</span>
+              <div>
+                <div class="footer-name" id="footer-name">Храм Александра Невского</div>
+                <div class="footer-tagline" id="footer-tagline">п. Усть-Абакан • Абаканская епархия</div>
+              </div>
+            </div>
+            <p class="footer-description" id="footer-description">
+              Официальный сайт православного храма Александра Невского в посёлке Усть-Абакан.
+            </p>
+          </div>
+
+          <!-- Колонка 2: Разделы -->
+          <nav aria-label="Навигация в подвале">
+            <h2 class="footer-col-title">Разделы</h2>
+            <ul class="footer-nav" id="footer-nav">
+              <!-- Заполняется через JS -->
+            </ul>
+          </nav>
+
+          <!-- Колонка 3: Контакты -->
+          <div>
+            <h2 class="footer-col-title">Контакты</h2>
+            <ul class="footer-contacts" id="footer-contacts">
+              <!-- Заполняется через JS -->
+            </ul>
+            <div class="footer-working-hours" id="footer-hours">
+              <!-- Заполняется через JS -->
+            </div>
+          </div>
+
+          <!-- Колонка 4: Соцсети -->
+          <div>
+            <h2 class="footer-col-title">Мы в соцсетях</h2>
+            <div class="footer-socials" id="footer-socials">
+              <!-- Заполняется через JS -->
+            </div>
+            <div class="footer-quote">
+              <p>«Придите ко Мне все труждающиеся и обременённые, и Я успокою вас»</p>
+              <cite>Евангелие от Матфея, 11:28</cite>
+            </div>
+          </div>
+        </div>
+
+        <!-- Нижняя полоса -->
+        <div class="footer-bottom">
+          <div>© <span id="footer-year-bottom">2026</span> <span id="footer-copyright-name">Храм Александра Невского</span>. Все права защищены.</div>
+          <div class="footer-bottom-right">
+            <a href="#/admin-help" class="footer-admin-link">📰 Как добавить новость</a>
+            <span class="footer-bottom-separator">•</span>
+            <div class="footer-bottom-made">
+              <span>Сделано с верой</span>
+              <span class="gold-star">✦</span>
+              <span>и любовью</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
