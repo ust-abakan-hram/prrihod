@@ -144,7 +144,7 @@ const CONTACTS = {
   phone: "+7 (39032) 2-18-80",
 
   // ЭЛЕКТРОННАЯ ПОЧТА
-  email: "31849175@gmail.com",
+  email: "n31849175@gmail.com",
 
   // ЧАСЫ РАБОТЫ
   workingHours: [
