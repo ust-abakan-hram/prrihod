@@ -208,6 +208,36 @@ const NEWS = [
     ],
   },
   
+  {
+    date: "25 августа 2026",
+    title: "Правящий архиерей совершил Божественную Литургию в Александро-Невском приходе в поселке Усть-Абакан 10.07.2016",
+    images: [
+      "images/news/news-031.png",
+      "images/news/news-032.png",
+      "images/news/news-033.png",
+      "images/news/news-034.png",
+      "images/news/news-035.png",
+      "images/news/news-036.png",
+      "images/news/news-037.png",
+      "images/news/news-038.png",
+      "images/news/news-039.png",
+      "images/news/news-040.png",
+      "images/news/news-041.png",
+      "images/news/news-042.png",
+      "images/news/news-043.png",
+      "images/news/news-044.png",
+      "images/news/news-045.png",
+      "images/news/news-046.png",
+      "images/news/news-047.png",
+      "images/news/news-048.png",
+      "images/news/news-049.png",
+      "images/news/news-050.png",
+      "images/news/news-051.png",
+      "images/news/news-052.png",
+      "images/news/news-053.png"
+    ],
+  },
+  
 
 
   // Пример готовой новости с ОДНОЙ фотографией (старый формат - работает):
