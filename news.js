@@ -293,6 +293,17 @@ const NEWS = [
       "images/news/news-089.png"
     ],
   },
+  
+  {
+    date: "16 октября 2018",
+    title: "Строительство нового Храма октябрь 2018",
+    images: [
+      "images/news/news-090.png",
+      "images/news/news-091.png",
+      "images/news/news-092.png",
+      "images/news/news-093.png"
+    ],
+  },
 
 
   // Пример готовой новости с ОДНОЙ фотографией (старый формат - работает):
