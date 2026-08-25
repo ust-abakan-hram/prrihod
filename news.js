@@ -295,7 +295,7 @@ const NEWS = [
   },
   
   {
-    date: "16 октября 2018",
+    date: " 16 октября 2018",
     title: "Строительство нового Храма октябрь 2018",
     images: [
       "images/news/news-090.png",
@@ -304,7 +304,19 @@ const NEWS = [
       "images/news/news-093.png"
     ],
   },
-
+  
+  {
+    date: "25 октября 2019",
+    title: "Завершена реконструкция старого храма октябрь 2019",
+    images: [
+      "images/news/news-094.png",
+      "images/news/news-095.png",
+      "images/news/news-096.png",
+      "images/news/news-097.png",
+      "images/news/news-098.png",
+      "images/news/news-099.png"
+    ],
+  },
 
   // Пример готовой новости с ОДНОЙ фотографией (старый формат - работает):
   /*
