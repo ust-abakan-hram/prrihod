@@ -238,6 +238,36 @@ const NEWS = [
     ],
   },
   
+   {
+    date: "09 ноября 2017",
+    title: "Реконструкция и ремонт старого храма 2017",
+    images: [
+      "images/news/news-054.png",
+      "images/news/news-055.png",
+      "images/news/news-056.png",
+      "images/news/news-057.png",
+      "images/news/news-058.png",
+      "images/news/news-059.png",
+      "images/news/news-060.png",
+      "images/news/news-061.png",
+      "images/news/news-062.png",
+      "images/news/news-063.png",
+      "images/news/news-064.png",
+      "images/news/news-065.png",
+      "images/news/news-066.png",
+      "images/news/news-067.png",
+      "images/news/news-068.png",
+      "images/news/news-069.png",
+      "images/news/news-070.png",
+      "images/news/news-071.png",
+      "images/news/news-072.png",
+      "images/news/news-073.png",
+      "images/news/news-074.png",
+      "images/news/news-075.png",
+      "images/news/news-076.png",
+      "images/news/news-077.png"
+    ],
+  },
 
 
   // Пример готовой новости с ОДНОЙ фотографией (старый формат - работает):
