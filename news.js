@@ -169,6 +169,22 @@ const NEWS = [
     ],
   },
 
+    {
+    date: "24 августа 2026",
+    title: "Строительство нового Храма 18.10.2016",
+    images: [
+      "images/news/news-006.png",
+      "images/news/news-007.png",
+      "images/news/news-008.png",
+      "images/news/news-009.png",
+      "images/news/news-010.png",
+      "images/news/news-011.png",
+      "images/news/news-012.png",
+      "images/news/news-013.png",
+      "images/news/news-014.png"
+    ],
+  },
+
 
   // Пример готовой новости с ОДНОЙ фотографией (старый формат - работает):
   /*
