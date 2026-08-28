@@ -231,42 +231,42 @@ const ABOUT = {
 const GALLERY = [
   {
     image: "images/gallery/gallery-001.png",
-    caption: "Главный фасад храма с пятью золотыми куполами",
+    caption: "",
     category: "Храм"
   },
   {
     image: "images/gallery/gallery-002.png",
-    caption: "Колокольня храма",
-    category: "Храм"
+    caption: "",
+    category: "Интерьер"
   },
   {
     image: "images/gallery/gallery-003.png",
-    caption: "Золотой иконостас главного придела",
+    caption: "",
     category: "Интерьер"
   },
   {
     image: "images/gallery/gallery-004.png",
-    caption: "Роспись купола — Христос Пантократор",
-    category: "Интерьер"
+    caption: "",
+    category: "Храм"
   },
   {
     image: "images/gallery/gallery-005.png",
-    caption: "Свечи у чтимой иконы",
+    caption: "",
     category: "Интерьер"
   },
   {
     image: "images/gallery/gallery-006.png",
-    caption: "Двор храма с цветочным садом",
+    caption: "",
     category: "Территория"
   },
   {
     image: "images/gallery/gallery-007.png",
-    caption: "Храм в зимнем убранстве",
+    caption: "",
     category: "Территория"
   },
   {
     image: "images/gallery/gallery-008.png",
-    caption: "Купола на закате",
+    caption: "",
     category: "Храм"
   }
 ];
