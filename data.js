@@ -254,17 +254,17 @@ const GALLERY = [
   {
     image: "images/gallery/gallery-006.png",
     caption: "",
-    category: "Территория"
+    category: "Интерьер"
   },
   {
     image: "images/gallery/gallery-007.png",
     caption: "",
-    category: "Территория"
+    category: "Богослужения"
   },
   {
     image: "images/gallery/gallery-008.png",
     caption: "",
-    category: "Храм"
+    category: "Богослужения"
   }
 ];
 
