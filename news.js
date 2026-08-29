@@ -341,7 +341,7 @@ const NEWS = [
   },
 
 {
-    date: "15 мая 2026",
+    date: "22 августа 2026",
     title: "Праздник в честь иконы Божией Матери",
     image:       
       "images/news/news-108.png",
