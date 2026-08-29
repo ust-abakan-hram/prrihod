@@ -364,7 +364,7 @@ const NEWS = [
     date: "23 августа 2026",
     title: "Божественная литургия в воскресный день",
     images: [
-      "images/news/news-118.png",
+      "images/news/news-126.png",
       "images/news/news-119.png",
       "images/news/news-120.png",
       "images/news/news-121.png",
@@ -372,7 +372,7 @@ const NEWS = [
       "images/news/news-123.png",
       "images/news/news-124.png",
       "images/news/news-125.png",
-      "images/news/news-126.png",
+      "images/news/news-118.png",
       "images/news/news-127.png",
     ],
     content: `
