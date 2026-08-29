@@ -343,9 +343,6 @@ const NEWS = [
      {
     date: "22 августа 2026",
     title: "Всенощное бдение в день памяти Сщмчч. Лаврентия, архидиакона, Сикста II, папы Римского, Феликиссима и Агапита, диаконов, мч. Романа, Римских",
-              content: `
-    Всенощное бдение
-    `
     images: [
       "images/news/news-108.png",
       "images/news/news-109.png",
@@ -358,6 +355,9 @@ const NEWS = [
       "images/news/news-116.png",
       "images/news/news-117.png",
     ],
+    content: `
+    Всенощное бдение
+    `
   },
 
 
