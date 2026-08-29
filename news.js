@@ -345,17 +345,7 @@ const NEWS = [
     title: "Праздник в честь иконы Божией Матери",
     image: [      
       "images/news/news-108.png",
-      "images/news/news-109.png",
-      "images/news/news-110.png",
-      "images/news/news-111.png",
-      "images/news/news-112.png",
-      "images/news/news-113.png",
-      "images/news/news-114.png",
-      "images/news/news-115.png",
-      "images/news/news-116.png",
-      "images/news/news-117.png"
       ],
-    excerpt: "Приглашаем всех прихожан на праздничное богослужение.",
     content: `
 Дорогие братья и сестры!
 
