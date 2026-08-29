@@ -342,11 +342,22 @@ const NEWS = [
 
      {
     date: "22 августа 2026",
-    title: "В день памяти благоверного великого князя Александра Невского в Усть-Абакане состоялся крестный ход на строящийся новый храм где был совершен Акафист благоверному князю. 2021.",
+    title: "Всенощное бдение в день памяти Сщмчч. Лаврентия, архидиакона, Сикста II, папы Римского, Феликиссима и Агапита, диаконов, мч. Романа, Римских",
     images: [
       "images/news/news-108.png",
-      "images/news/news-109.png"
+      "images/news/news-109.png",
+      "images/news/news-110.png",
+      "images/news/news-111.png",
+      "images/news/news-112.png",
+      "images/news/news-113.png",
+      "images/news/news-114.png",
+      "images/news/news-115.png",
+      "images/news/news-116.png",
+      "images/news/news-117.png",
     ],
+       content: `
+    Всенощное бдение
+    `
   },
 
 
